@@ -1,0 +1,21 @@
+question 1
+
+>>> set1 = set()
+>>> set1.add("arrow")
+>>> set1.add("oliver")
+>>> print(set1)
+{'oliver', 'arrow'}
+>>> set2 = set()
+>>> set2.add("oliver")
+>>> set2.add("queen")
+>>> print(set2)
+{'oliver', 'queen'}
+>>> set3 = set1-set2
+>>> print(set3)
+{'arrow'}
+>>> set4 = set1^set2
+>>> print(set4)
+{'queen', 'arrow'}
+>>> set5 = set1&set2
+>>> print(set5)
+{'oliver'}

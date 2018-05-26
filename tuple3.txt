@@ -1,0 +1,7 @@
+question 3
+
+>>> tuple = (3,6,7,9)
+>>> from operator import mul
+>>> from functools import reduce
+>>> reduce(mul,tuple)
+1134

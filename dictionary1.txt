@@ -1,0 +1,22 @@
+question 1
+
+>>> dict = {}
+>>> for i in range(10):
+...     n = input("Enter ")
+...     l = n.split(':')
+...     dict[l[0]] = l[1]
+...
+Enter harshit:45
+Enter aditya:48
+Enter guneet:49
+Enter anurag:43
+Enter aniket:41
+Enter abhijeet:39
+Enter rahul:35
+Enter raj:23
+Enter alex:30
+Enter ram:25
+>>> print(dict)
+{'harshit': '45', 'aditya': '48', 'guneet': '49', 'anurag': '43', 
+'aniket': '41', 'abhijeet': '39', 'rahul': '35', 'raj': '23', 'alex': 
+'30', 'ram': '25'}

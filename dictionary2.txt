@@ -1,0 +1,11 @@
+question 2
+
+>>> print(dict)
+{'harshit': '45', 'aditya': '48', 'guneet': '49', 'anurag': '43', 
+'aniket': '41', 'abhijeet': '39', 'rahul': '35', 'raj': '23', 'alex': 
+'30', 'ram': '25'}
+>>> sorted_dict = sorted(dict.items(),key = lambda t:t[1])
+>>> print(sorted_dict)
+[('raj', '23'), ('ram', '25'), ('alex', '30'), ('rahul', '35'), 
+('abhijeet', '39'), ('aniket', '41'), ('anurag', '43'), ('harshit', 
+'45'), ('aditya', '48'), ('guneet', '49')]

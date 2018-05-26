@@ -1,0 +1,10 @@
+question 2
+
+>>> tuple1 = (9,6,13)
+>>> tuple2 = (5,10,1)
+>>> print("Maximum elements in tuples 1,2 : 
+"+str(max(tuple1))+","+str(max(tuple2)))
+Maximum elements in tuples 1,2 : 13,10
+>>> print("Minimum elements in tuples 1,2 : 
+"+str(min(tuple1))+","+str(min(tuple2)))
+Minimum elements in tuples 1,2 : 6,1
